@@ -168,7 +168,7 @@ namespace OpenCueService
                     }
                     else
                     {
-                        throw e;
+                        throw;
                     }
                 }
             }

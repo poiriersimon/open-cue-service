@@ -7,7 +7,7 @@
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <RepositoryUrl>https://github.com/Legion2/open-cue-service</RepositoryUrl>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <RootNamespace>OpenCueService</RootNamespace>
     <RuntimeIdentifier>win-x64</RuntimeIdentifier>
     <PublishSingleFile>true</PublishSingleFile>
@@ -22,6 +22,7 @@
 
   <ItemGroup>
     <PackageReference Include="NSwag.AspNetCore" Version="13.19.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="CgSDK.x64_2015.dll" CopyToPublishDirectory="Always" />
